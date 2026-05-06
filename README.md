@@ -35,7 +35,7 @@ alternatively you can clone the repository and serve the layer locally
 export default defineNuxtConfig({
   /* ... The rest of your config ... */
   /* link to the relative location of this layer */
-  extends: ['./layers/supabase-shared-auth-layer']
+  extends: ['./layers/supabase-nuxt-shared-auth']
   /* ... The rest of your config ... */
 })
 ```
